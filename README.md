@@ -10,3 +10,7 @@ Uma página simples e interativa desenvolvida para capturar a atenção do usuá
 > - HTML
 > - CSS
 > - JavaScript
+
+## 📎 Referências
+
+DEV envolvente. Criando Landing Page do iPhone13 do ZERO // Html, Css e JavaScript. **Youtube**, 26 de jul. de 2019. Disponível em: <[https://www.youtube.com/watch?v=ECtto0xi7aU](https://www.youtube.com/watch?v=ECtto0xi7aU)>. Acesso em: 21 de set. de 2023.
