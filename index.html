@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>iPhone 13</title>
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <a href="#">
+                    <img src="img/logo.png" alt="Logo do iPhone" class="nav-logo">
+                </a>
+                <ul>
+                    <li><a href="">Mac</a></li>
+                    <li><a href="">iPad</a></li>
+                    <li><a href="">iPhone</a></li>
+                    <li><a href="">Watch</a></li>
+                    <li><a href="">Só na Apple</a></li>
+                    <li><a href="">Suporte</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <div class="circle"></div>
+                <div class="main-text">
+                    <img src="img/iphone13.png" alt="iPhone 13">
+                    <h3>Seu novo superpoder.</h3>
+                    <p>Chip com velocidade impressionante. Um aumento notável na duração da bateria. E novos recursos de foto e vídeo. <br> No iPhone 13, você faz coisas que nunca pôde. E ele ainda vem em dois tamanhos.</p>
+                    <h6>A partir de R$ 6.999</h6>
+                    <a href="#" class="btn">Comprar</a>
+                    <div class="text">
+                        <h5>Escolha sua cor favorita:</h5>
+                    </div>
+                    <div class="content">
+                        <span id="green" onclick="teste('img/green.png')"></span>
+                        <span id="pink" onclick="teste('img/pink.png')"></span>
+                        <span id="blue" onclick="teste('img/blue.png')"></span>
+                        <span id="black" onclick="teste('img/black.png')"></span>
+                        <span id="white" onclick="teste('img/white.png')"></span>
+                        <span id="red" onclick="teste('img/red.png')"></span>
+                    </div>
+                </div>
+                <div class="main-img">
+                    <img src="img/green.png" alt="Imagem do iPhone" id="iphone">
+                </div>
+            </section>
+        </main>
+        
+        <script type="text/javascript">
+            function teste(e){
+                document.querySelector("#iphone").src = e;
+                switch(e.split("img/")[1].split(".png")[0]){
+                    case "green":
+                        document.querySelector(".circle").style = `background: #384947`;
+                        break;
+                        
+                    case "pink":
+                        document.querySelector(".circle").style = `background: #f8ddd6`;
+                        break;
+                        
+                    case "blue":
+                        document.querySelector(".circle").style = `background: #225f7e`;
+                        break;
+                        
+                    case "black":
+                        document.querySelector(".circle").style = `background: #192028`;
+                        break;
+                        
+                    case "white":
+                        document.querySelector(".circle").style = `background: #f7f2ee`;
+                        break;
+                        
+                    case "red":
+                        document.querySelector(".circle").style = `background: #ae0617`;
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+        </script>
+    </body>
+
+</html>
